@@ -1,4 +1,6 @@
 @import 'res.css';
+@import 'hcjt-icon-fonts.css';
+
 body {
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -6,6 +8,104 @@ body {
   color: #333;
   background-color: #fff;
 }
+
 /* *********************
  *  TOP BAR
  ***********************/
+section#hcjt--top-bar {
+    background-color: #e7e7e7;
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+.hcjt-top-bar-left, .hcjt-top-bar-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.hcjt-top-bar-right {
+    justify-content: flex-end;
+}
+
+.hcjt-top-bar-right .top-bar-socials .icons a {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 6px;
+    display: inline-block;
+}
+
+.hcjt-top-bar-right .top-bar-hotline {
+    margin-left: 10px;
+}
+ 
+.hcjt-top-bar-right .top-bar-hotline .phone-numb { 
+    font-size: 14px;
+    font-weight: bold;
+    color: #c70003;
+    margin-left: 6px;
+}
+
+.hcjt-top-bar-right .top-bar-hotline .phone-numb a {
+    color: #c70003;
+}
+
+/* *********************
+ *  Header
+ ***********************/
+header#hcjt--header {
+    background: url(../images/header-banner.jpg) no-repeat center center;
+    padding: 55px 0;
+}
+
+
+/* *********************
+ *  NAV
+ ***********************/
+section#hcjt--navigation {
+    background: #c70003 url(../images/nav-bg.png) repeat center center;
+}
+
+section#hcjt--navigation a {
+    color: #fff;
+}
+
+nav#main-nav {
+    width: calc(100% - 100px);
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav#main-nav ul li {
+   position: relative;
+}
+
+nav#main-nav > ul > li {
+   display: inline-block;
+   line-height: 50px;
+}
+
+nav#main-nav > ul > li > a {
+    display: block;
+    padding: 0 15px;
+}
+
+nav#main-nav > ul > li:hover a {
+    background-color: #aa0408;
+}
+
+div#header-search {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div#header-search a {
+    line-height: 50px;
+    background-color: #aa0408;
+    display: block;
+    width: 50px;
+    text-align: center;
+}
