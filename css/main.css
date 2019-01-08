@@ -1,0 +1,11 @@
+@import 'res.css';
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  background-color: #fff;
+}
+/* *********************
+ *  TOP BAR
+ ***********************/
